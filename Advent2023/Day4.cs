@@ -39,7 +39,6 @@
 
             return count;
         }
-
         private int FindAllCardCopies(string row,string[] rows)
         {
             if (row == "" || row == "\n")
@@ -64,7 +63,6 @@
             }
             return count;
         }
-
         public List<int> ReadNumbers(string value)
         {
             if (value == null || value == "")
