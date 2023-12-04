@@ -38,8 +38,6 @@
             }
 
             return count;
-
-            
         }
 
         private int FindAllCardCopies(string row,string[] rows)
