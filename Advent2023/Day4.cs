@@ -39,30 +39,7 @@
 
             return count;
 
-            //string cardCopies = "";
-            //int count = 0;
-            //int rowNum = 0;
-            //foreach (string row in rows)
-            //{
-            //    rowNum++;
-            //    if (rowNum > 2000)
-            //        break;
-            //    if (row == "" || row == "\n") continue;
-            //    string numeric = row.Split(':')[1];
-            //    string[] numbers = numeric.Split('|');
-            //    List<int> winning = ReadNumbers(numbers[0]);
-            //    List<int> yourNumbers = ReadNumbers(numbers[1]);
-            //    int matches = FindMatchingNumbers(winning, yourNumbers);
-            //    int cardNumber = GetCardNumber(row);
-            //    count++;
-            //    if (cardNumber == 0 || cardNumber > 198) continue;
-            //    for (int i = cardNumber + 1; i <= matches + cardNumber; i++)
-            //    {
-            //        string copy = rows.Where(x => x.Contains(i.ToString() + ":")).FirstOrDefault("");
-            //        cardCopies += copy + "\r";
-            //    }
-            //}
-            //return count + CountCards(cardCopies);
+            
         }
 
         private int FindAllCardCopies(string row,string[] rows)
