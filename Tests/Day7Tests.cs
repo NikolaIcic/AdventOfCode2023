@@ -147,7 +147,7 @@ namespace Tests
         {
             string text = File.ReadAllText(@"D:\\Projects\\Training\\AdventOfCode\\2023\\Advent2023\\Tests\\Puzzles\\Input7.txt");
 
-            Assert.Equal(0, d7.TotalWinnings(text,true));
+            Assert.Equal(243101568, d7.TotalWinnings(text,true));
         }
     }
 }
