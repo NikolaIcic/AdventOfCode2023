@@ -217,7 +217,7 @@ namespace Tests
         {
             string text = File.ReadAllText(@"D:\\Projects\\Training\\AdventOfCode\\2023\\Advent2023\\Tests\\Puzzles\\Input11.txt");
 
-            Assert.Equal(0, d11.SumGalaxyDistances(text,1000000));
+            Assert.Equal(447744640566, d11.SumGalaxyDistances(text,1000000));
         }
     }
 }
