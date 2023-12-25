@@ -93,6 +93,7 @@
         private static List<string> GeneratePermutations(string input)
         {
             List<string> permutations = new List<string>();
+            HashSet<string> visited = new HashSet<string>();
             GeneratePermutationsHelper(input.ToCharArray(), 0, permutations);
             return permutations;
         }
