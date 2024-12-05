@@ -86,7 +86,7 @@ namespace Tests
         [Fact]
         public void Part1()
         {
-            string text = File.ReadAllText(@"D:\Projects\AoC\2024\Advent2024\Tests\Input2.txt");
+            string text = File.ReadAllText(@"D:\Projects\AoC\2024\Tests\Input2.txt");
 
             Assert.Equal(371, d2.GetTotalSafe(text));
         }
@@ -115,7 +115,7 @@ namespace Tests
         [Fact]
         public void Part2()
         {
-            string text = File.ReadAllText(@"D:\Projects\AoC\2024\Advent2024\Tests\Input2.txt");
+            string text = File.ReadAllText(@"D:\Projects\AoC\2024\Tests\Input2.txt");
 
             Assert.Equal(426, d2.GetTotalSafeExpanded(text));
         }

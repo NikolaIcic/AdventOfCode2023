@@ -68,7 +68,7 @@ namespace Tests
         [Fact]
         public void Part1()
         {
-            string text = File.ReadAllText(@"D:\Projects\AoC\2024\Advent2024\Tests\Input1.txt");
+            string text = File.ReadAllText(@"D:\Projects\AoC\2024\Tests\Input1.txt");
 
             Assert.Equal(1197984, d1.GetTotalDistance(text));
         }
@@ -110,7 +110,7 @@ namespace Tests
         [Fact]
         public void Part2()
         {
-            string text = File.ReadAllText(@"D:\Projects\AoC\2024\Advent2024\Tests\Input1.txt");
+            string text = File.ReadAllText(@"D:\Projects\AoC\2024\Tests\Input1.txt");
 
             Assert.Equal(23387399, d1.GetTotalSimilarities(text));
         }
