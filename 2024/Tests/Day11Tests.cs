@@ -25,7 +25,7 @@ namespace Tests
         {
             string input = "3 386358 86195 85 1267 3752457 0 741";
 
-            Assert.Equal(0, d11.CountStones(input, 75));
+            Assert.Equal(218811774248729, d11.CountStones(input, 75));
         }
     }
 }
