@@ -14,7 +14,7 @@ namespace Tests
             d12.ReadInput(input);
 
             Assert.Equal(4, d12.Rows);
-            Assert.Equal(4, d12.Rows);
+            Assert.Equal(4, d12.Cols);
         }
 
         [Fact]
